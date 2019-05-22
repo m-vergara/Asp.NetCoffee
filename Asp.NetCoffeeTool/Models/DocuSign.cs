@@ -9,5 +9,6 @@ namespace Asp.NetCoffeeTool.Models
     {
         public string Envelope { get; set; }
         public string Recipient { get; set; }
+        public DateTime RecipientDate { get; set; }
     }
 }
