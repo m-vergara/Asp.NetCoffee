@@ -16,6 +16,7 @@ namespace Asp.NetCoffeeTool.Controllers
     public class ListenerController : ControllerBase
     {
         private readonly ILogger<ListenerController> _logger;
+        private bool _debug;
         public ListenerController(ILogger<ListenerController> logger)
         {
             _logger = logger;
